@@ -7,11 +7,8 @@ import operator
 '''
  * python file containing providers's functions
  *
- *
- * @author __________________________________
+ * @author Vedsar Kushwaha and Ishwar Raut
  * @version 1.0
- * 
- * Copyright 2014, Indian Institute of Science, 2014
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -47,7 +44,6 @@ def get_price(sellers,formula,total_we_profit=0):
 		total_price+=i[1]*i[2]
 		available_resource_cnt+=i[1]
 	return max((float(total_price-(formula*total_we_profit))/available_resource_cnt),1)
-	# return (float(total_price-(formula*total_we_profit))/available_resource_cnt)
 
 def get_free_resources(sellers):
 	"""
