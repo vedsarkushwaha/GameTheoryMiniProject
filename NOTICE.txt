@@ -1,0 +1,5 @@
+Apache Cloud Resource Allocation
+Copyright [2015] The Apache Software Foundation
+
+This product includes software developed at Indian Institute of Science as a part of Game Theory course
+The Apache Software Foundation (http://www.apache.org/).
