@@ -5,10 +5,8 @@ import numpy as np
  * python file containing buyer's functions
  *
  *
- * @author __________________________________
+ * @author Vedsar Kushwaha and Ishwar Raut
  * @version 1.0
- * 
- * Copyright 2014, Indian Institute of Science, 2014
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -82,7 +80,6 @@ def get_buyer_second_price(buyers,buyeri):
 		if x==buyeri:
 			break
 		i+=1
-	#print i
 	if i==len(buyers)-1:
 		return new_list[i][2]*buyeri[1]
 	else :
@@ -93,15 +90,12 @@ def get_buyer_second_price(buyers,buyeri):
 		 	i+=1
 		 	if i==len(buyers)-1:
 		 		price+=core*new_list[i][2]
-		 		#print str(core)+"*"+str(new_list[i][2])+"="+str(core*new_list[i][2])
-		 		core=0
+		  		core=0
 		 	else:
 		 		if core>new_list[i][1]:
 		 			core=core-new_list[i][1]
 		 			price+=new_list[i][1]*new_list[i][2]
-		 			#print  str(new_list[i][1])+"*"+str(new_list[i][2])+"="+str(new_list[i][1]*new_list[i][2])
 		 		else:
 		 			price+=core*new_list[i][2]
-		 			#print str(core)+"*"+str(new_list[i][2])+"="+str(core*new_list[i][2])
 		 			core=0
 		return  price
