@@ -3,11 +3,8 @@ import matplotlib.pyplot as plt
 '''
  * python file to plot graphs
  *
- *
- * @author _________________________
+ * @author Vedsar Kushwaha and Ishwar Raut
  * @version 1.0
- * 
- * Copyright 2014, Indian Institute of Science, 2014
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
