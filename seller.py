@@ -3,11 +3,8 @@ import names,random,operator
 '''
  * python file containing seller's functions
  *
- *
- * @author __________________________________
+ * @author Vedsar Kushwaha and Ishwar Raut
  * @version 1.0
- * 
- * Copyright 2014, Indian Institute of Science, 2014
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -76,16 +73,13 @@ def get_seller_price(sellers,seller_id,core_request):
 		 	i+=1
 		 	if i==len(sellers)-1:
 		 		price+=core*new_list[i][2]
-		 		#print str(core)+"*"+str(new_list[i][2])+"="+str(core*new_list[i][2])
 		 		core=0
 		 	else:
 		 		if core>new_list[i][1]:
 		 			core=core-new_list[i][1]
 		 			price+=new_list[i][1]*new_list[i][2]
-		 			#print  str(new_list[i][1])+"*"+str(new_list[i][2])+"="+str(new_list[i][1]*new_list[i][2])
 		 		else:
 		 			price+=core*new_list[i][2]
-		 			#print str(core)+"*"+str(new_list[i][2])+"="+str(core*new_list[i][2])
 		 			core=0
 		return  price
 		 			
@@ -129,16 +123,3 @@ def get_remaining_cores(sellers):
 	for selleri in sellers:
 		rem_core+=selleri[1]
 	return rem_core
-"""
-m=gen_seller(10,5,10,1,10)
-for x in m:
-	print x
-print " "
-new_list = list(m)
-new_list.sort(key=operator.itemgetter(2))
-for x in new_list:
-	print x
-print " "
-
-print get_seller_price(m,3,18) 
-"""
