@@ -4,7 +4,6 @@ import numpy as np
 '''
  * python file containing buyer's functions
  *
- *
  * @author Vedsar Kushwaha and Ishwar Raut
  * @version 1.0
  *
