@@ -4,7 +4,6 @@ import numpy as np
 '''
  * python file containing buyer's functions
  *
- *
  * Copyright 2015 Vedsar and Ishwar
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
