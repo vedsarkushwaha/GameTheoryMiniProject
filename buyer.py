@@ -5,8 +5,7 @@ import numpy as np
  * python file containing buyer's functions
  *
  *
- * @author Vedsar Kushwaha and Ishwar Raut
- * @version 1.0
+ * Copyright 2015 Vedsar and Ishwar
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
